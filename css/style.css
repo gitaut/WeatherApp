@@ -1,0 +1,27 @@
+body{
+	background: url("../img/weather.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: helvetica, arial, sans-serif;
+}
+#heading{
+	color: rgba(222,222,222,.8);
+	margin-bottom:10%;
+}
+.weather{
+	background: rgba(222,222,222,.7);
+	padding: 10px 0px;
+	margin-bottom: 35%;
+}
+.temp{
+	padding: 0px;
+}
+.weather .iconpic img {	
+  min-width: 100px;   
+}
+div .toggle{
+	margin-top: 20px;
+}
+p,p a{
+	color: rgba(222,222,222,.8);
+}

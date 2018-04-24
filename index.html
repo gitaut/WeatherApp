@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- de aici http://howtocoder.com/blog/Building-Freecodecamp-Weather-App-HowToCoder-Weekly-Project-Series -->
+	<meta charset="UTF-8">
+	<title>Weather App</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"> -->
+
+	<!--jquery and bootstrap js files-->	  
+  <!--<script src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>	
+</head>
+<body>
+	<div class="container">
+		<div id="heading">
+			<h1 class="text-center">Weather App</h1>	
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-sm-8 col-xs-12 col-sm-push-2 col-md-push-4">
+				<div class="weather text-center">
+					<h4><span class="city"></span>,<span class="country"></span></h4>
+					<h2 class="temp"></h2>
+					<div class="iconpic">							
+						<img src="" class="img img-responsive center-block">
+					</div>
+					<h4 class="weatherDetail"></h4>
+					<div class="toggle" id="c">
+						<button class="btn btn-outline-secondary btn-sm">Toggle temperature</button>
+					</div>					
+				</div><!--weather-->
+			</div>
+		</div><!--row-->
+		<br>
+		<p class="text-center">by <a href="https://github.com/gitaut" target="_blank">sergius</a></p>
+	</div>
+	<script src="js/script.js"></script>	
+</body>
+</html>
